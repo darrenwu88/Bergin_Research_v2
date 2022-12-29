@@ -1,0 +1,13 @@
+Site,Parameter,Date (LT),Year,Month,Day,Hour,NowCast Conc.,AQI,AQI Category,Raw Conc.,Conc. Unit,Duration,QC Name
+
+Translated
+
+Site_Name, (Country Name), PM2.5, Timestamp, %Y, m%, %d, %H ...............................................
+
+
+df_raw.drop(df_raw.columns[[9, 12]], axis = 1, inplace = True)
+
+Serial Number, Site Name, Country, Timestamp, Longitude, Latitude, is_indoors, PM1.0, PM2.5, Applied PM2.5 Custom Calibration Factor,PM4.0,PM10,Applied PM10 Custom Calibration Factor,PM0.5 NC,PM1.0 NC,PM2.5 NC,PM4.0 NC,PM10 NC,Typical Particle Size,PM Sensor Status,Temperature,Relative Humidity,Device Status
+,UTC,,,ug/m3,ug/m3,,ug/m3,ug/m3,,#/cm3,#/cm3,#/cm3,#/cm3,#/cm3,um,,Celsius,%,
+
+Serial / Site Name / Timestamp / Long / Lat / is_indoors
